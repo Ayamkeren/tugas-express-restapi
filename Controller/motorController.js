@@ -44,7 +44,7 @@ export const updateMotor = (req, res) => {
       res.json(result);
     });
   } else {
-    res.send("isi body nya bro");
+    res.send("isi body nya");
   }
 };
 
